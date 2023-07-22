@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Argent CF';
+    src: url("font/Fontspring-DEMO-argentcf-bolditalic.otf") format("opentype");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+:root {
+    --bs-secondary: #a09b9b !important;
+}
+
+.bg-secondary,
+.btn-secondary {
+    background-color: var(--bs-secondary) !important;
+    color: var(--bs-dark);
+}
+.text-danger{
+    color: red !important;
+}
+.bg-danger-light{
+    background: #ea8484 !important;
+}
+
+.bg-info{
+    background-color: #8ffff8 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+.argenth1 {
+    font-family: 'Argent CF';
+}
+
+.text-success {
+    color: greenyellow !important;
+}
+
+.link {
+    text-decoration: none;
+}
+
+a.link-primary {
+    color: red;
+    text-decoration: none;
+}
+
+a.link-primary:hover {
+    text-decoration: underline;
+}
+
+.gridBox {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gridBox a {
+    padding: 1rem;
+    margin: 0.5rem;
+    text-align: center;
+    min-width: 150px;
+    text-decoration: none;
+    color: var(--bs-text);
+}
+
+@media screen  and (min-width: 1100px){
+    h1{
+        font-size: 3.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    h4{
+        font-size: 1rem;
+    }
+    
+    
+}
